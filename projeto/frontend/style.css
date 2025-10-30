@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f3f4f7;
+    color: #333;
+}
+
+header {
+    background: #4b67f5;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.logout-btn {
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    background: #f54242;
+    border: none;
+    padding: 8px 14px;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.login-bg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(#4b67f5, #6236ff);
+}
+
+.login-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 0 0 10px #0004;
+}
+
+.login-container input,
+.add-task input,
+.add-task select {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+}
+
+button {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    background: #4b67f5;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #3747d7;
+}
+
+.add-task {
+    display: flex;
+    gap: 8px;
+    padding: 15px;
+}
+
+.tarefas-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    padding: 15px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px #0003;
+    position: relative;
+}
+
+.card h3 {
+    margin: 0;
+    color: #4b67f5;
+}
+
+.card span {
+    font-size: 13px;
+}
+
+.card button {
+    margin-top: 10px;
+    width: 100%;
+}

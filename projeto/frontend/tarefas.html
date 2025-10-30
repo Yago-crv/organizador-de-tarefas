@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Tick</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Minhas Tarefas</h1>
+    <button class="logout-btn" onclick="logout()">Sair</button>
+</header>
+<div class="add-task">
+    <input id="titulo" placeholder="Título">
+    <input id="descricao" placeholder="Descrição">
+    <input id="data" type="date">
+    <select id="prioridade">
+        <option>Baixa</option>
+        <option>Média</option>
+        <option>Alta</option>
+    </select>
+    <input id="categoria" placeholder="Categoria">
+    <select id="status">
+        <option>Pendente</option>
+        <option>Concluída</option>
+    </select>
+    <button onclick="adicionarTarefa()">Adicionar</button>
+</div>
+
+<div id="listaTarefas" class="tarefas-container"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
