@@ -73,4 +73,5 @@ Logout remove o token e retorna para login
 ## 👨‍💻 Autores
 
 <a href="https://github.com/Yago-crv" target="_blank">Yago Carvalho</a>
-<a href="https://github.com/p91561145" target="_blank">Pedro Melo</a>
+
+<a href="https://github.com/p91561145" target="_blank"> Pedro Melo</a>
